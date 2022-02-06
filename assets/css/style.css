@@ -87,39 +87,57 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 /*--about--*/
 
 
-/*--why choose us--*/
-
-#choose {
-	background-color: #3875d2;
-}
-
-@media only screen and (max-width: 768px) {
-  .choose-heading {
-    text-align: center;
-  }
-}
-
-.choose-image {
-	height: 240px;
-	background: url("/assets/img/choose-image.jpg") no-repeat center center;
-	background-size: cover;
-	border: #f8c901 10px solid;
-	margin-top: 10%;
-  border-radius: 50px;
-}
-
-@media only screen and (max-width: 768px) {
-  .choose-image {
-    margin-top: 0;
-		margin-bottom: 5%;
-  }
-}
-
 /*--our services--*/
+
+
+/*--features--*/
 
 
 /*--customer reviews--*/
 
+.review-image {
+	height: 400px;
+	background: url('/assets/img/dog-owner.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.carousel-item {
+	height: 300px;
+	margin-top: 50px;
+	position: relative;
+	border: #3875d2 1px solid;
+  border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+	color: #000;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	color: green;
+	font-size: 40px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+	color: red;
+}
+
+.carousel-indicators [data-bs-target]  {
+	background-color: green;
+}
+
+.carousel-indicators .active {
+	background-color: blue;
+}
+
+.user-review {
+	width: 70%;
+	position: absolute;
+	top: 10%;
+	left: 15%;
+}
 
 /*--contact--*/
 
