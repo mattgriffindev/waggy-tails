@@ -5,6 +5,7 @@
 }
 
 /*--navbar--*/
+
 header {
 	background-color: #fff;
 }
@@ -43,15 +44,16 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 /*--hero-image--*/
+
 #hero {
 	background-color: #ffaeae;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .hero-image {
-    height: 600px;
-    background: url("/assets/img/hero-image.png") no-repeat right center;
-    background-size: contain;
+  height: 600px;
+  background: url("/assets/img/hero-image.png") no-repeat right center;
+  background-size: contain;
 	align-items: center;
 	position: relative;
 }
@@ -86,6 +88,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 
 /*--why choose us--*/
+
 #choose {
 	background-color: #3875d2;
 }
@@ -100,8 +103,9 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 	height: 240px;
 	background: url("/assets/img/choose-image.jpg") no-repeat center center;
 	background-size: cover;
-	border: #f8c901 5px solid;
+	border: #f8c901 10px solid;
 	margin-top: 10%;
+  border-radius: 50px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -110,6 +114,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 		margin-bottom: 5%;
   }
 }
+
 /*--our services--*/
 
 
@@ -118,9 +123,16 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 /*--contact--*/
 
+.contact-form {
+	padding: 30px;
+  border: #3875d2 1px solid;
+  border-radius: 50px;
+}
 
 /*--footer--*/
-
+#footer {
+  background-color: #3875d2;
+}
 
 /*--Misc*/
 .horizontal-line {
