@@ -4,6 +4,14 @@
 	font-family: 'Nunito', sans-serif;
 }
 
+#about,
+#services,
+#features,
+#reviews,
+#contact {
+	scroll-margin-top: 5em;
+}
+
 /*--navbar--*/
 
 header {
@@ -151,8 +159,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 .contact-form {
 	padding: 30px;
-  border: #3875d2 1px solid;
-  border-radius: 50px;
+  	border: #3875d2 1px solid;
+  	border-radius: 50px;
 }
 
 /*--footer--*/
