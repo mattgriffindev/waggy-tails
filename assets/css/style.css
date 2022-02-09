@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 
-* {
-	font-family: 'Nunito', sans-serif;
+ {
+	font-family: 'Roboto', sans-serif;
 }
 
 #about,
@@ -60,9 +60,8 @@ header {
 
 .hero-image {
   	height: 600px;
-  	background: url("/assets/img/hero-image.png") no-repeat right center;
-  	background-size: contain;
-	align-items: center;
+  	background: url("/assets/img/hero-image.jpg") no-repeat center center;
+  	background-size: cover;
 	position: relative;
 }
 
@@ -98,8 +97,8 @@ header {
 /*--our services--*/
 
 .service-card {
-  border: 1px solid pink;
-  border-radius: 10px;
+  	border: 1px solid pink;
+  	border-radius: 10px;
 }
 
 .fa-li {
@@ -147,8 +146,8 @@ header {
 
 .carousel-indicators [data-bs-target]  {
 	background-color: transparent;
-	height: 15px;
-	width: 15px;
+	height: 10px;
+	width: 10px;
 	border: 1px solid #000;
 	border-radius: 50%;
 }
