@@ -47,13 +47,9 @@ TBC
 
 **Wireframes**
 
-Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq").
+Wireframes for desktop, tablet and mobile view were created using [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq").
 
-[View the desktop wireframe](assets/wireframes "Desktop wireframe")
-
-[View the tablet wireframe](assets/wireframes/ "Tablet wireframe")
-
-[View the mobile wireframe](assets/wireframes/ "Mobile wireframe")
+[View the wireframes here](assets/wireframes/wireframes.pdf "Wireframes")
 
 ## Features
 
