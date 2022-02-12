@@ -120,7 +120,7 @@ header {
   }
   
   .services-bg {
-	  height: 600px;
+	  height: 575px;
 	  background: url("/assets/img/services-bg1.png") repeat;
 	  background-size: contain;
   }
@@ -128,7 +128,7 @@ header {
   .services-main {
 	  background-color: #FAF9F6;
 	  border-radius: 10px;
-	  border: 2px solid purple;
+	  border: 2px solid #6C84F5;
 	  box-sizing: border-box;
 	  overflow: hidden;
 	  height: 250px;
@@ -157,15 +157,18 @@ header {
   }
   
   @media only screen and (max-width: 425px) {
-	  .services-main {
-		  clear: both;
-	  }
-	  
-	  .services-main--left {
-		  width: 100%;
+	.services-bg {
+	height: 1100px;
 	}
+	
+	.services-main {
+		clear: both;
+	}
+	
+	.services-main--left {
+		width: 100%;
   }
-
+}
 /*----------------------------------------------features*/
 
 
