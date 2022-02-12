@@ -117,25 +117,54 @@ header {
 
 .services-title {
 	background: #6C84F5;
-}
-
-.services-image {
-	height: 400px;
-	background: url("/assets/img/paws1.png") repeat;
-	background-size: contain;
-}
-
-.services-image-overlay {
-	height: 400px;
-	background-color: rgba(108, 132, 245, 0.6);
-}
-
-.service-card {
-	background-color: #fff;
-	border: 1px solid pink;
-	border-radius: 10px;
-	margin-top: 20px
-}
+  }
+  
+  .services-bg {
+	  height: 600px;
+	  background: url("/assets/img/services-bg1.png") repeat;
+	  background-size: contain;
+  }
+  
+  .services-main {
+	  background-color: #FAF9F6;
+	  border-radius: 10px;
+	  border: 2px solid purple;
+	  box-sizing: border-box;
+	  overflow: hidden;
+	  height: 250px;
+	  width: auto;
+	  margin-top: 20px;
+  }
+  
+  .services-main--left {
+	  float: left;
+	  height: 250px;
+	  width: 50%;
+	  padding: 10px;
+	  box-sizing: border-box;
+  }
+  
+  .services-main--right {
+	  float: right;
+	  height: 250px;
+	  width: 50%;
+	  box-sizing: border-box;
+  }
+  
+  .services-main--img {
+	  height: 100%;
+	  object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 425px) {
+	  .services-main {
+		  clear: both;
+	  }
+	  
+	  .services-main--left {
+		  width: 100%;
+	}
+  }
 
 /*----------------------------------------------features*/
 
@@ -290,51 +319,4 @@ header {
 
 .btn {
 	font-weight: 700;
-}
-
-/*----------------------------------------------services*/
-
-.services-container {
-	background-color: pink;
-}
-
-.services-main {
-	background-color: #FAF9F6;
-	border-radius: 10px;
-	border: 2px solid purple;
-	box-sizing: border-box;
-	overflow: hidden;
-	height: 250px;
-	width: auto;
-	margin-top: 20px;
-}
-
-.services-main--left {
-	float: left;
-	height: 250px;
-	width: 50%;
-	padding: 10px;
-	box-sizing: border-box;
-}
-
-.services-main--right {
-	float: right;
-	height: 250px;
-	width: 50%;
-	box-sizing: border-box;
-}
-
-.services-main--img {
-	height: 100%;
-	object-fit: cover;
-}
-
-@media only screen and (max-width: 425px) {
-	.services-main {
-		clear: both;
-	}
-
-	.services-main--left {
-		width: 100%;
-	}
 }
