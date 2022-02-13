@@ -25,6 +25,7 @@ td {
 	font-family: 'Bubblegum Sans', cursive;
 	font-size: 3rem;
 	margin-top: 1rem;
+	margin-bottom: 0;
 }
 
 .fa-phone-alt,
@@ -152,7 +153,6 @@ header {
 	  box-sizing: border-box;
 	  overflow: hidden;
 	  height: 250px;
-	  width: auto;
 	  margin-top: 20px;
   }
   
@@ -191,6 +191,19 @@ header {
 }
 /*----------------------------------------------features*/
 
+.features-title {
+	background: #FFA900;
+  }
+  
+.features-main {
+	background-color: #FAF9F6;
+	border-radius: 10px;
+	border: 1px solid #BF961A;
+	box-sizing: border-box;
+	overflow: hidden;
+	height: 250px;
+	margin-top: 20px;
+}
 
 /*----------------------------------------------reviews*/
 
@@ -255,7 +268,18 @@ header {
 	color: green;
 }
 
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 220px;
+	width: 300px;
+}
+
 .gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 200px;
+	width: 100%;
 	border-radius: 10px;
 }
 
@@ -284,6 +308,18 @@ header {
 .footer-top,
 .footer-bottom {
 	color: #fff;
+}
+
+.footer-top .fa-paw {
+	font-size: 5rem;
+	color: inherit;
+	padding-left: 3rem;
+}
+
+.footer-top h4 {
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 2.5rem;
+	font-weight: 500;
 }
 
 .footer-top h5 {
