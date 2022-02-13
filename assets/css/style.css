@@ -341,7 +341,8 @@ header {
 /*----------------------------------------------misc*/
 
 hr {
-	border-top: 1px solid inherit;
+	border-top: 1px solid;
+	color: inherit;
 	width: 15%;
   	opacity: 1;
 	display: inline-block;
