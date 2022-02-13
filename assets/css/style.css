@@ -269,19 +269,9 @@ header {
 	color: green;
 }
 
-.mapouter {
-	position: relative;
-	text-align: right;
-	height: 220px;
-	width: 300px;
-}
-
-.gmap_canvas {
-	overflow: hidden;
-	background: none !important;
-	height: 200px;
-	width: 100%;
-	border-radius: 10px;
+.map {
+	height: 12rem;
+	width: 20rem;
 }
 
 .contact-form {
