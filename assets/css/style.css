@@ -142,7 +142,7 @@ header {
   
   .services-bg {
 	  height: 575px;
-	  background: url("../../assets/img/services-bg1.png") repeat;
+	  background: url("../../assets/img/services-bg.png") repeat;
 	  background-size: contain;
   }
   
@@ -213,7 +213,7 @@ header {
 
 .reviews-image {
 	height: 450px;
-	background: url("../../assets/img/dog-owner1.jpg") no-repeat center center;
+	background: url("../../assets/img/dog-owner.jpg") no-repeat center center;
 	background-size: cover;
 }
 
