@@ -205,6 +205,10 @@ header {
 	border: none;
 }
 
+.features-icon {
+	font-size: 2.5rem;
+}
+
 .fa-circle {
 	color: var(--main-bg-color);
 }
@@ -212,7 +216,7 @@ header {
 .card > hr {
 	border-top: 2px solid var(--secondary-bg-color);
 	width: 50%;
-  opacity: 1;
+	opacity: 1;
 	margin-left: 25%;
 	
 }
@@ -354,7 +358,7 @@ hr {
 	border-top: 1px solid;
 	color: inherit;
 	width: 15%;
-  opacity: 1;
+  	opacity: 1;
 	display: inline-block;
 	margin-bottom: 6px;
 }
