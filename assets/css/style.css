@@ -27,6 +27,17 @@ html {
 	scroll-margin-top: 5em;
 }
 
+@media only screen and (max-width: 425px) {
+	#about,
+	#services,
+	#features,
+	#reviews,
+	#contact,
+	#footer {
+		scroll-margin-top: 4em;
+	}
+}
+
 p, td { font-size: 1.125rem;}
 
 h2, h4, h5 { font-family: var(--title-font);}
@@ -135,12 +146,12 @@ header {
 
 .hero-right {
 	height: 540px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .hero-right-img {
 	background: url("../../assets/img/hero-img.png") no-repeat center center;
-	background-size: 70%;
+	background-size: 65%;
 	height:100%;
 }
 
@@ -150,7 +161,7 @@ header {
 	}
 
 	.hero-right-img {
-		background-size: 60%;
+		background-size: 55%;
 	}
 }
 
