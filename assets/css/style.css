@@ -26,7 +26,8 @@
 p, td { font-size: 1.125rem;}
 
 h2, h4, h5 { font-family: var(--title-font);}
-p, td, h6, li { font-family: var(--paragraph-font);}
+
+p, td, h6, li, .nav-tel { font-family: var(--paragraph-font);}
 
 .section-heading-bg {
 	background-color: var(--primary-bg-color);
@@ -356,11 +357,15 @@ header {
 	padding-right: 1rem;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
 	.footer-top {
 		text-align: center;
 	}
 
+	.footer-top-col {
+		padding-bottom: 2rem;
+	}
+	
 	.footer-top .fa-paw {
 		padding-left: 0;
 	}
