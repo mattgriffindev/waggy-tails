@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Della+Respira&family=Open+Sans&family=Lato&display=swap');
 
 /*----------------------------------------------general*/
 
@@ -9,7 +9,7 @@
 	--secondary-text-color: #123c69;
 	--brand-color: #bab2b5;
 	--brand-font: 'Bubblegum Sans', cursive;
-	--title-font: 'Della Respira', serif;
+	--title-font: 'Lato', sans-serif;
 	--paragraph-font: 'Open Sans', sans-serif;
 }
 
@@ -135,12 +135,13 @@ header {
 
 .hero-right {
 	height: 540px;
+	padding-bottom: 20px;
 }
 
 .hero-right-img {
 	background: url("../../assets/img/hero-img.png") no-repeat center center;
-	height: 100%;
-	background-size: contain;
+	background-size: 70%;
+	height:100%;
 }
 
 @media only screen and (max-width: 425px) {
@@ -226,7 +227,7 @@ header {
 /*----------------------------------------------reviews*/
 
 .reviews-bg {
-	background-color: var(--main-bg-color);
+	background-color: var(--primary-bg-color);
 	opacity: 0.8;
 	height: 450px;
 }
