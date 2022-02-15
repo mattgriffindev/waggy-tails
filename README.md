@@ -59,51 +59,49 @@ The website is designed to be responsive on all device sizes.
 
 **Languages Used**
 
-[HTML5](https://en.wikipedia.org/wiki/HTML5 "HTML5")
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "HTML5")
 
-[CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "CSS3")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "CSS3")
 
 **Frameworks, Libraries and Programes Used**
 
-[Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap v5") was used to assist with the responsiveness and styling of the website.
+- [Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap v5") was used to assist with the responsiveness and styling of the website.
 
-[Google Fonts](https://fonts.google.com/ "Google Fonts") was used to import the Bubblegum Sans and Nunito fonts into the style.css file, which are used throughout the website.
+- [Google Fonts](https://fonts.google.com/ "Google Fonts") was used to import the Bubblegum Sans and Nunito fonts into the style.css file, which are used throughout the website.
 
-[Font Awesome](https://fontawesome.com/ "Font Awesome") was used to add icons for aesthetic and UX purposes throughout the website.
+- [Font Awesome](https://fontawesome.com/ "Font Awesome") was used to add icons for aesthetic and UX purposes throughout the website.
 
-[Hover.css](https://ianlunn.github.io/Hover/ "Hover.css") was used on the links in the navbar to add the underline-from-center transition on hover.
+- [Hover.css](https://ianlunn.github.io/Hover/ "Hover.css") was used on the links in the navbar to add the underline-from-center transition on hover.
 
-[jQuery](https://jquery.com/ "jQuery") is included in Boostrap to make the navbar responsive.
+- [jQuery](https://jquery.com/ "jQuery") is included in Boostrap to make the navbar responsive.
 
-[Git](https://git-scm.com/ "Git") was used for version control by using the Gitpod terminal to commit to Git and push to GitHub.
+- [Git](https://git-scm.com/ "Git") was used for version control by using the Gitpod terminal to commit to Git and push to GitHub.
 
-[GitHub](https://github.com/ "GitHub") was used to store the project code after being pushed from Git.
+- [GitHub](https://github.com/ "GitHub") was used to store the project code after being pushed from Git.
 
-[Balsamiq](https://balsamiq.com/ "Balsamiq") was used to create the wireframes during the design process.
+- [Balsamiq](https://balsamiq.com/ "Balsamiq") was used to create the wireframes during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-[W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator")
+- [W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator")
 
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator")
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator")
 
 ## Credits
 
 **Code**
 
-[Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap v5") was used to assist with the responsiveness and styling of the website.
-
-[Embed Google Map](https://www.embedgooglemap.net/ "Embed Google Map") was used to create and embed the Google Map in the Contact Us section.
+- [Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap v5") was used to assist with the responsiveness and styling of the website.
 
 **Information Sources/Resources**
 
-[W3C Schools](https://www.w3schools.com/ "W3C Schools") 
+- [W3C Schools](https://www.w3schools.com/ "W3C Schools") 
 
-[Stack Overflow](https://stackoverflow.com// "Stack Overflow") 
+- [Stack Overflow](https://stackoverflow.com// "Stack Overflow") 
 
-[Saas Design](https://www.saasdesign.io/amazing-font-pairings "Saas Design") 
+- [Saas Design](https://www.saasdesign.io/amazing-font-pairings "Saas Design") 
 
 **Content**
 
@@ -111,8 +109,22 @@ All content was written by the developer.
 
 **Media**
 
-TBC
+All images were used under the Creative Commons licence.
+
+- [paw-solid.svg](https://fontawesome.com/v5/icons/paw?s=solid "paw-solid.svg")
+
+- [pATTERN](https://www.sliderrevolution.com/coding/css-background-patterns/ "TBC")
+
+- [bath.jpg](https://www.flickr.com/photos/wheatfields/2213648523/in/photostream/ "bath.jpg")
+
+- [puppy.jpg](https://pxhere.com/en/photo/898839 "puppy.jpg")
+
+- [long-hair.jpg](https://en.wikipedia.org/wiki/File:Long_Hair_GSD.jpg "long-hair.jpg")
+
+- [short-hair.jpg](https://commons.wikimedia.org/wiki/File:Short_Haired_Border_Collie.jpg "short-hair.jpg")
+
+All images were compressed using [remove.bg](https://www.remove.bg/ "remove.bg").
 
 **Acknowledgements**
 
-TBC
+Thank you to my mentor, Dario Carrasquel for his helpful feedback, and to tutor support at Code Institute for their support.

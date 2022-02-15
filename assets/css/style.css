@@ -247,32 +247,25 @@ header {
 .reviews-bg {
 	background-color: var(--primary-bg-color);
 	opacity: 0.8;
-	height: 450px;
+	height: 400px;
 }
 
-@media only screen and (max-width: 320px) {
-	.reviews-bg {
-		height: 620px;
-	}
-}
 .carousel-item {
-	height: 350px;
+	height: 300px;
 	margin-top: 50px;
 	position: relative;
 	background-color: rgba(255, 255, 255, 0.9);
 	color: #000;
 }
 
-@media only screen and (max-width: 320px) {
-	.carousel-item {
-		height: 520px;
+@media only screen and (max-width: 768px) {
+	.reviews-bg {
+		height: 500px;
 	}
-}
 
-.fa-star {
-	color: #FFA900;
-	font-size: 1.5rem;
-	padding-bottom: 1rem;
+	.carousel-item {
+		height: 400px;
+	}
 }
 
 .carousel-indicators [data-bs-target] {
@@ -294,7 +287,17 @@ header {
 	left: 15%;
 }
 
+.fa-star {
+	color: #FFA900;
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+
 /*----------------------------------------------contact*/
+
+.contact-col-left {
+	text-align: left;
+}
 
 .contact-info td {
 	font-size: 1.375rem;
@@ -311,9 +314,6 @@ header {
 	font-weight: 700;
 }
 
-.view-map-btn {
-	margin-left: 2rem;
-}
 .contact-form {
 	color: var(--primary-text-color);
 	background-color: var(--secondary-bg-color);
@@ -322,6 +322,12 @@ header {
 	border-radius: 10px;
 	box-sizing: border-box;
 }
+
+@media only screen and (max-width: 425px) {
+	.contact-col-left,
+	.contact-col-right {
+		padding-bottom: 2rem;
+	}
 
 /*----------------------------------------------footer*/
 
