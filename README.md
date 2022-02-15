@@ -123,7 +123,9 @@ All images were used under the Creative Commons licence.
 
 - [short-hair.jpg](https://commons.wikimedia.org/wiki/File:Short_Haired_Border_Collie.jpg "short-hair.jpg")
 
-All images were compressed using [remove.bg](https://www.remove.bg/ "remove.bg").
+All images were compressed using [TinyPNG](https://tinypng.com/ "TinyPNG").
+
+Where necessary, backgrounds were removed using [remove.bg](https://www.remove.bg/ "remove.bg").
 
 **Acknowledgements**
 
