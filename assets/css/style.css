@@ -13,6 +13,10 @@
 	--paragraph-font: 'Open Sans', sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+  }
+  
 #about,
 #services,
 #features,
@@ -176,11 +180,6 @@ header {
 	border-radius: 50%;
 	margin: 0 auto;
 }
-
-#services-img-short-hair {	background: url("/assets/img/short-hair.jpg") no-repeat center center;}
-#services-img-long-hair {	background: url("/assets/img/long-hair.jpg") no-repeat center center;}
-#services-img-puppy {	background: url("/assets/img/puppy.jpg") no-repeat center center;}
-#services-img-bath {	background: url("/assets/img/bath.jpg") no-repeat center center;}
 
  .services-img {
 	height: 100%;
