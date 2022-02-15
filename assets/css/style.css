@@ -148,13 +148,9 @@ header {
 	.hero-right {
 		height: 300px;
 	}
-}
 
-/*--
-
-@media only screen and (max-width: 768px) {
-	.hero-image {
-		height: 500px;
+	.hero-right-img {
+		background-size: 60%;
 	}
 }
 
