@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=M+PLUS+1+Code&family=Open+Sans&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=M+PLUS+1+Code&family=Open+Sans&family=Neuton:wght@400;700;800&family=Lato&display=swap');
 
 /*----------------------------------------------general*/
 
@@ -11,8 +11,8 @@
 	--tertiary-text-color: #FAF9F6;
 	--brand-color: #fd3a4a;
 	--brand-font: 'Bubblegum Sans', cursive;
-	--title-font: 'Lato', sans-serif;
-	--paragraph-font: 'Open Sans', sans-serif;
+	--title-font: 'Neuton', serif;
+	--paragraph-font: 'Lato', sans-serif;
 }
 
 html {
@@ -141,20 +141,19 @@ header {
 }
 
 .hero-left {
-	padding: 40px;
+	padding: 1.5rem 2rem 2rem;
 }
 
 .hero-left h2 {
 	color: var(--primary-text-color);
 	line-height: 1;
-	font-weight: 500;
+	font-weight: 800;
 }
 
 .hero-left p {
 	color: var(--tertiary-text-color);
 	font-weight: 400;
 	padding-top: 1rem;
-	padding-bottom: 1rem;
 }
 
 .highlight {

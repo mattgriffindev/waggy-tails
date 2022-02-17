@@ -45,11 +45,11 @@ TBC
 
 **Typography**
 
-The Lato font is the title font used throughout the whole website. Sans-serif is the fallback font in case the title font is not being imported correctly.
+The Neuton font is the title font used throughout the whole website. Serif is the fallback font.
 
-The Open Sans font is the paragraph font used throughout the whole website. Sans-serif is the fallback font.
+The Lato font is the paragraph font used throughout the whole website. Sans-serif is the fallback font in case the title font is not being imported correctly. The Lato font is known for its round edges and the approachable warmth it gives to the reader.
 
-The Bubblegum Sans font is the brand fron used in the navigation menu at the top of the site and at the bottom of the site in the footer. Cursive is the fallback font. Bubblegum Sans is described as an in-your-face font; thick, round, and as playful as a puppy [(Saas Design)](https://www.saasdesign.io/amazing-font-pairings/ "SaaS Design").
+The Bubblegum Sans font is the brand fron used in the navigation menu at the top of the site and at the bottom of the site in the footer. Cursive is the fallback font. Bubblegum Sans is described as an in-your-face font; thick, round, and as playful as a puppy.
 
 **Imagery**
 
@@ -109,7 +109,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps:
 
-1.	Log in to GitHub and locate the [gitHub respository](https://github.com/mattgriffindev/waggy-tails/ "GitHub respository").
+1.	Log in to GitHub and locate the [GitHub respository](https://github.com/mattgriffindev/waggy-tails/ "GitHub respository").
 2.	At the top of the repository (not top of page), locate the 'Settings' icon on the menu.
 3.	Scroll down the Settings page until you locate the 'GitHub Pages' Section.
 4.	Under 'Source', click the dropdown called 'None' and select 'Master Branch'.
@@ -120,13 +120,13 @@ The project was deployed to GitHub Pages using the following steps:
 
 By forking the GitHub repository you make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
-1.	Log in to GitHub and locate the [gitHub respository](https://github.com/mattgriffindev/waggy-tails/ "GitHub respository").
+1.	Log in to GitHub and locate the [GitHub respository](https://github.com/mattgriffindev/waggy-tails/ "GitHub respository").
 2.	At the top of the repository (not top of page) just above the 'Settings' icon on the menu, locate the "Fork" icon.
 3.	You should now have a copy of the original repository in your GitHub account.
 
 **Making a Local Clone**
 
-1.	Log in to GitHub and locate the [gitHub respository](https://github.com/mattgriffindev/waggy-tails/ "GitHub respository").
+1.	Log in to GitHub and locate the [GitHub respository](https://github.com/mattgriffindev/waggy-tails/ "GitHub respository").
 2.	Under the repository name, click 'Clone or download'.
 3.	To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4.	Open Git Bash.
