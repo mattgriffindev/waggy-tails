@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Della+Respira&family=Open+Sans&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=M+PLUS+1+Code&family=Open+Sans&family=Lato&display=swap');
 
 /*----------------------------------------------general*/
 
 :root {
-	--primary-bg-color: #eee2dc;
-	--secondary-bg-color: #edc7b7;
-	--primary-text-color: #ac3b61;
+	--primary-bg-color: #EAE6DC;
+	--secondary-bg-color: #E1533C;
+	--tertiary-bg-color: #FAF9F6;
+	--primary-text-color: #E1533C;
 	--secondary-text-color: #123c69;
-	--brand-color: #bab2b5;
+	--tertiary-text-color: #FAF9F6;
+	--brand-color: #fd3a4a;
 	--brand-font: 'Bubblegum Sans', cursive;
 	--title-font: 'Lato', sans-serif;
 	--paragraph-font: 'Open Sans', sans-serif;
@@ -73,7 +75,7 @@ p, td, h6, li, .nav-tel { font-family: var(--paragraph-font);}
 .btn-main {
 	font-family: var(--paragraph-font);
 	background-color: var(--secondary-bg-color);
-	color: var(--primary-text-color);
+	color: var(--tertiary-text-color);
 	border-color: var(--primary-text-color);
 	font-weight: 700;
 }
@@ -85,7 +87,7 @@ p, td, h6, li, .nav-tel { font-family: var(--paragraph-font);}
 /*----------------------------------------------navbar*/
 
 header {
-	background-color: var(--primary-bg-color);
+	background-color: var(--tertiary-bg-color);
 }
 
 .nav-link {
@@ -157,13 +159,24 @@ header {
 
 .hero-right {
 	height: 540px;
-	padding-bottom: 30px;
 }
 
-.hero-right-img {
+.hero-img-container {
+	height: 400px;
+	width: 400px;
+	padding: 15px;
+	background-color: var(--tertiary--bg-color);
+	border: 3px solid var(--primary-text-color);
+	border-radius: 50%;
+	margin: 70px auto;
+}
+
+ .hero-img {
 	background: url("../../assets/img/hero-img.png") no-repeat center center;
-	background-size: 65%;
-	height:100%;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	object-fit: cover;
 }
 
 @media only screen and (max-width: 425px) {
@@ -235,7 +248,7 @@ header {
 }
 
 .card > hr {
-	border-top: 2px solid var(--secondary-text-color);
+	border-top: 2px solid var(--primary-text-color);
 	width: 50%;
 	opacity: 1;
 	margin-left: 25%;
@@ -246,13 +259,16 @@ header {
 
 .reviews-bg {
 	background-color: var(--primary-bg-color);
-	opacity: 0.8;
 	height: 400px;
 }
 
-.carousel-item {
-	height: 300px;
+.carousel {
 	margin-top: 50px;
+	border: 1px solid var(--primary-text-color);
+}
+
+.carousel-item {
+	height: 350px;
 	position: relative;
 	background-color: rgba(255, 255, 255, 0.9);
 	color: #000;
@@ -293,6 +309,25 @@ header {
 	padding-bottom: 1rem;
 }
 
+.reviews-img-container {
+	height: 350px;
+	width: 350px;
+	padding: 15px;
+	border: 1px solid var(--primary-text-color);
+	border-radius: 50%;
+	margin: 50px auto;
+}
+
+ .reviews-img {
+	background: url("../../assets/img/hero-img.png") no-repeat center center;
+	background-color: var(--tertiary-bg-color);
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	border: 1px solid var(--primary-text-color);
+	object-fit: cover;
+}
+
 /*----------------------------------------------contact*/
 
 .contact-col-left {
@@ -314,8 +349,11 @@ header {
 	font-weight: 700;
 }
 
+.view-map-btn {
+	margin-left: 2rem;
+}
 .contact-form {
-	color: var(--primary-text-color);
+	color: var(--tertiary-text-color);
 	background-color: var(--secondary-bg-color);
 	padding: 20px 30px;
 	border: 1px solid var(--primary-text-color);
@@ -332,18 +370,16 @@ header {
 
 /*----------------------------------------------footer*/
 
-.footer-top,
-.footer-bottom {
+.footer-top {
+	background-color: var(--main-bg-color);
 	padding-top: 1rem;
 	color: var(--primary-text-color);
 }
 
-.footer-top {
-	background-color: var(--primary-bg-color);
-}
-
 .footer-bottom {
-	background-color: var(--secondary-bg-color);
+	background-color: var(--tertiary-bg-color);
+	padding-top: 1rem;
+	color: var(--secondary-text-color);
 }
 
 .footer-top .fa-paw {
@@ -408,6 +444,10 @@ header {
 
 .social-media-icon:hover {
 	opacity: 1;
+}
+
+.signature {
+	font-family: 'M PLUS 1 Code', cursive;
 }
 
 .hvr-pulse:hover {
