@@ -231,7 +231,6 @@ header {
 	box-sizing: border-box;
 	overflow: hidden;
 	margin-top: 20px;
-	
 }
 
 .card-header {
@@ -259,7 +258,7 @@ header {
 
 .reviews-bg {
 	background-color: var(--primary-bg-color);
-	height: 400px;
+	height: 450px;
 }
 
 .carousel {
@@ -324,7 +323,6 @@ header {
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
-	border: 1px solid var(--primary-text-color);
 	object-fit: cover;
 }
 
@@ -371,7 +369,7 @@ header {
 /*----------------------------------------------footer*/
 
 .footer-top {
-	background-color: var(--main-bg-color);
+	background-color: var(--primary-bg-color);
 	padding-top: 1rem;
 	color: var(--primary-text-color);
 }
