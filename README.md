@@ -6,7 +6,17 @@ This is the main marketing website for Waggy Tails, a dog grooming salon based i
 
 IMAGE
 
-## User Experience (UX)
+## Content
+
+1. [User Experience](#user-experience-ux)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+
+
+## 1. User Experience (UX)
 
 ### User Stories
 
@@ -25,7 +35,7 @@ IMAGE
 
 **Site Structure**
 
-The website is a single-page website that contains only one HTML page - there are no additional pages. The website is divided into 5 main sections: (1) About Us; (2) Why Choose Us; (3) Our Services; (4) Reviews; and (5) Contact Us.
+The website is a single-page website that contains only one HTML page - there are no additional pages. The website is divided into 5 main sections: (1) About Us; (2) Our Services; (3) Why Choose Us? (4) Reviews; and (5) Contact Us.
 
 This provides a more continuous, clean, and intuitive user experience - removing unnecessary clutter and focussing the user’s attention on the most important content, enabling the user to make a decision and act on it. The user navigates to different areas of the website by clicking on navigation links in the navigation menu, or by scrolling down the page to different sections of content.
 
@@ -35,7 +45,11 @@ TBC
 
 **Typography**
 
-The Nunito font is the main font used throughout the whole website with Sans Serif as the fallback font in case the main font is not being imported correctly. The Bubblegum Sans font is the font used for the company’s brand in the navigation menu at the top of the site. Bubblegum Sans is described as an in-your-face font; thick, round, and as playful as a puppy. It has been used sparingly to give the site an element of fun. Nunito is a more serious font that reigns in the Bubblegum Sans and keeps it grounded [(Saas Design)](https://www.saasdesign.io/amazing-font-pairings/ "SaaS Design").
+The Lato font is the title font used throughout the whole website. Sans-serif is the fallback font in case the title font is not being imported correctly.
+
+The Open Sans font is the paragraph font used throughout the whole website. Sans-serif is the fallback font.
+
+The Bubblegum Sans font is the brand fron used in the navigation menu at the top of the site and at the bottom of the site in the footer. Cursive is the fallback font. Bubblegum Sans is described as an in-your-face font; thick, round, and as playful as a puppy [(Saas Design)](https://www.saasdesign.io/amazing-font-pairings/ "SaaS Design").
 
 **Imagery**
 
@@ -51,11 +65,11 @@ Wireframes for desktop, tablet and mobile view were created using [Balsamiq](htt
 
 [View the wireframes here](assets/wireframes/wireframes.pdf "Wireframes")
 
-## Features
+## 2. Features
 
 The website is designed to be responsive on all device sizes.
 
-## Technologies Used
+## 3. Technologies Used
 
 **Languages Used**
 
@@ -81,7 +95,7 @@ The website is designed to be responsive on all device sizes.
 
 - [Balsamiq](https://balsamiq.com/ "Balsamiq") was used to create the wireframes during the design process.
 
-## Testing
+## 4. Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -89,13 +103,46 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator")
 
-## Credits
+## 5. Deployment
+
+**GitHub Pages**
+
+The project was deployed to GitHub Pages using the following steps:
+
+1.	Log in to GitHub and locate the [gitHub respository](https://github.com/mattgriffindev/waggy-tails/ "GitHub respository").
+2.	At the top of the repository (not top of page), locate the 'Settings' icon on the menu.
+3.	Scroll down the Settings page until you locate the 'GitHub Pages' Section.
+4.	Under 'Source', click the dropdown called 'None' and select 'Master Branch'.
+5.	The page will automatically refresh.
+6.	Scroll back down through the page to locate the now published [site link](https://mattgriffindev.github.io/waggy-tails/index.html "Waggy Tails") in the "GitHub Pages" section.
+
+**Forking the GitHub Repository**
+
+By forking the GitHub repository you make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+1.	Log in to GitHub and locate the [gitHub respository](https://github.com/mattgriffindev/waggy-tails/ "GitHub respository").
+2.	At the top of the repository (not top of page) just above the 'Settings' icon on the menu, locate the "Fork" icon.
+3.	You should now have a copy of the original repository in your GitHub account.
+
+**Making a Local Clone**
+
+1.	Log in to GitHub and locate the [gitHub respository](https://github.com/mattgriffindev/waggy-tails/ "GitHub respository").
+2.	Under the repository name, click 'Clone or download'.
+3.	To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4.	Open Git Bash.
+5.	Change the current working directory to the location where you want the cloned directory to be made.
+6.	Type "git clone", and then paste the URL you copied in Step 3.
+7.	Press Enter. Your local clone will be created.
+
+## 6. Credits
 
 **Code**
 
 - [Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Bootstrap v5") was used to assist with the responsiveness and styling of the website.
 
 **Information Sources/Resources**
+
+The following sources were used to provide additional information relating to HTML and CSS:
 
 - [W3C Schools](https://www.w3schools.com/ "W3C Schools") 
 
@@ -105,7 +152,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 **Content**
 
-All content was written by the developer.
+All content was written by the developer with the following excpetion(s):
+
+- The descriptions of services offered in the 'Services' section were taken from the [Pets at Home website](https://www.petsathome.com/shop/en/pets/the-groom-room/grooming-services?cm_re=groomroomHomepage-_-CTA-_-Treatments "Pets at Home").
 
 **Media**
 

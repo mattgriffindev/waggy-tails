@@ -78,7 +78,6 @@ p, td, h6, li, .nav-tel { font-family: var(--paragraph-font);}
 	font-family: var(--paragraph-font);
 	background-color: var(--secondary-bg-color);
 	color: var(--tertiary-text-color);
-	border-color: var(--primary-text-color);
 	font-weight: 700;
 }
 
@@ -147,16 +146,20 @@ header {
 
 .hero-left h2 {
 	color: var(--primary-text-color);
-	line-height: 1.1;
+	line-height: 1;
 	font-weight: 500;
 }
 
 .hero-left p {
-	color: var(--secondary-text-color);
+	color: var(--tertiary-text-color);
 	font-weight: 400;
-	line-height: 1.2;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+}
+
+.highlight {
+	background-color: var(--secondary-text-color);
+	line-height: 1.5;
 }
 
 .hero-right {
@@ -253,7 +256,7 @@ header {
 }
 
 .fa-circle {
-	color: var(--primary-bg-color);
+	color: var(--secondary-text-color);
 }
 
 .card > hr {
@@ -326,7 +329,7 @@ header {
 
 .quote {
 	font-size: 5rem;
-	color: var(--main-bg-color);
+	color: var(--primary-bg-color);
 	margin: 185px auto;
 }
 
@@ -359,6 +362,10 @@ header {
 	border-radius: 10px;
 	box-sizing: border-box;
 	text-align: center;
+}
+
+.submit-btn {
+	border: 1px solid var(--tertiary-text-color);
 }
 
 @media only screen and (max-width: 425px) {
