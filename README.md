@@ -45,7 +45,7 @@ TBC
 
 **Typography**
 
-The Neuton font is the title font used throughout the whole website. Serif is the fallback font.
+The Monsterrat font is the title font used throughout the whole website. Sans-serif is the fallback font.
 
 The Lato font is the paragraph font used throughout the whole website. Sans-serif is the fallback font in case the title font is not being imported correctly. The Lato font is known for its round edges and the approachable warmth it gives to the reader.
 
