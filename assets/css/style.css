@@ -143,10 +143,6 @@ header {
 
 /*----------------------------------------------hero-image*/
 
-.hero-bg {
-
-}
-
 .hero-left {
 	background-color: var(--primary-bg-color);
 	padding: 1.5rem 2rem 2rem;
@@ -163,6 +159,12 @@ header {
 	line-height: 1.5;
 	font-weight: 400;
 }
+
+/*--
+.underline {
+	text-decoration: none;
+  	box-shadow: inset 0 -.2em 0 rgba(255, 64, 64, 0.6);
+} */
 
 .highlight {
 	background-color: var(--tertiary-text-color);

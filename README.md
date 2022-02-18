@@ -49,15 +49,17 @@ The Monsterrat font is the title font used throughout the whole website. Sans-se
 
 The Lato font is the paragraph font used throughout the whole website. Sans-serif is the fallback font in case the title font is not being imported correctly. The Lato font is known for its round edges and the approachable warmth it gives to the reader.
 
-The Bubblegum Sans font is the brand fron used in the navigation menu at the top of the site and at the bottom of the site in the footer. Cursive is the fallback font. Bubblegum Sans is described as an in-your-face font; thick, round, and as playful as a puppy.
+The Bubblegum Sans font is the brand fron used in the navigation bar at the top of the site and at the bottom of the site in the footer. Cursive is the fallback font. Bubblegum Sans is described as an in-your-face font; thick, round, and as playful as a puppy.
 
 **Imagery**
 
-TBC
+The hero image is a dog posing - it was chosen to catch the user's attention and to give a fun and energetic aesthetic.
+
+The images in the Treatments section were chosen to reflect the different treatents available, i.e. an image of a long-haired dog, a short-haired dog, a puppy, and a muddy dog.
 
 **Interactive Links**
 
-TBC
+The site includes internal hyperlinks from the navigation bar to the different sections of the site; and external hyperlinks from the footer to Facebook, Twitter and Instagram, which are set to open in a new tab.
 
 **Wireframes**
 
@@ -160,17 +162,17 @@ All content was written by the developer with the following excpetion(s):
 
 All images were used under the Creative Commons licence.
 
-- [paw-solid.svg](https://fontawesome.com/v5/icons/paw?s=solid "paw-solid.svg")
+- [paw-solid.svg](https://fontawesome.com/v5/icons/paw?s=solid "paw-solid.svg") - used for the browser tab icon.
 
-- [pATTERN](https://www.sliderrevolution.com/coding/css-background-patterns/ "TBC")
+- [hero-img.jpg](https://www.freepik.com/free-photo/run-maltipu-little-dog-is-posing_11454003.htm "hero-img.jpg") - used for the Hero image in the Hero section.
 
-- [bath.jpg](https://www.flickr.com/photos/wheatfields/2213648523/in/photostream/ "bath.jpg")
+- [bath.jpg](https://www.flickr.com/photos/wheatfields/2213648523/in/photostream/ "bath.jpg") - used in the Treatments section.
 
-- [puppy.jpg](https://pxhere.com/en/photo/898839 "puppy.jpg")
+- [puppy.jpg](https://pxhere.com/en/photo/898839 "puppy.jpg") - used in the Treatments section.
 
-- [long-hair.jpg](https://en.wikipedia.org/wiki/File:Long_Hair_GSD.jpg "long-hair.jpg")
+- [long-hair.jpg](https://en.wikipedia.org/wiki/File:Long_Hair_GSD.jpg "long-hair.jpg") - used in the Treatments section.
 
-- [short-hair.jpg](https://commons.wikimedia.org/wiki/File:Short_Haired_Border_Collie.jpg "short-hair.jpg")
+- [short-hair.jpg](https://commons.wikimedia.org/wiki/File:Short_Haired_Border_Collie.jpg "short-hair.jpg") - used in the Treatments section.
 
 All images were compressed using [TinyPNG](https://tinypng.com/ "TinyPNG").
 
