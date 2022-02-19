@@ -273,7 +273,6 @@ header {
 
 .carousel {
 	margin-top: 50px;
-	border: 2px solid inherit;
 	border-radius: 50px;
 }
 
@@ -354,7 +353,6 @@ header {
 	color: var(--tertiary-text-color);
 	background-color: var(--secondary-bg-color);
 	padding: 20px 30px;
-	border: 1px solid inherit;
 	border-radius: 10px;
 	box-sizing: border-box;
 	text-align: center;
