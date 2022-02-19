@@ -4,9 +4,9 @@
 
 This is the main marketing website for Waggy Tails, a dog grooming salon based in Cwmbran. The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
 
-IMAGE
+    ![Responsiveness screenshot](/assets/img/responsiveness.png)
 
-## Content
+## Contents
 
 1. [User Experience](#user-experience-ux)
 2. [Features](#features)
@@ -112,6 +112,22 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator"
 A copy of the original report can be accessed [here](assets/testing/w3c-css-validator-1.pdf "W3C CSS Validator report").
 
 A copy of the final report can be accessed [here](assets/testing/w3c-css-validator-2.pdf "W3C CSS Validator report").
+
+**Lighthouse Testing**
+
+The website was tested using Lighthouse on the Chrome and Microsoft Edge browsers to determine the website’s performance, accessibility, best practices, and SEO.
+
+In all tests, all measures scored at least 90%.
+
+The reports can be viewed below:
+
+- [Chrome Desktop](assets/testing/chrome-lighthouse-desktop.pdf "Chrome Desktop report")
+
+- [Chrome Mobile](assets/testing/chrome-lighthouse-mobile.pdf "Chrome Mobile report")
+
+- [Edge Desktop](assets/testing/edge-lighthouse-desktop.pdf "Edge Desktop report")
+
+- [Edge Mobile](assets/testing/edge-lighthouse-mobile.pdf "Edge Mobile report")
 
 **a11y Color Contrast Accessibility Validator**
 
