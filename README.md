@@ -101,9 +101,19 @@ The website is designed to be responsive on all device sizes.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator")
+**W3C Markup Validator**
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator")
+The [W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator") returned no errors or warnings.
+
+A copy of the report can be accessed [here](assets/testing/w3c-html-validator.pdf "W3C Markup Validator report").
+
+**W3C CSS Validator**
+
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator") returned 2 errors: ‘inherit’ is not a recognised value in the border shorthand property. These errors were resolved by removing the border property as it was deemed unneccsary. The CSS validator returned a large number of warnings related to vendor extensions - these were ignored.
+
+A copy of the original report can be accessed [here](assets/testing/w3c-css-validator-1.pdf "W3C CSS Validator report").
+
+A copy of the final report can be accessed [here](assets/testing/w3c-css-validator-2.pdf "W3C CSS Validator report").
 
 ## 5. Deployment
 
