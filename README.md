@@ -1,10 +1,10 @@
 # Waggy Tails Website
 
-[View the live site here](https://www.google.com "Waggy Tails")
+[View the live site here](https://mattgriffindev.github.io/waggy-tails/ "Waggy Tails")
 
-This is the main marketing website for Waggy Tails, a dog grooming salon based in Cwmbran. The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
+This is the main marketing website for Waggy Tails, a dog grooming salon based in Cwmbran. The company wants to expand its online presence by launching a website. The website should give users information about the company, the services it provides and their costs, feedback from existing customers, and ways to contact/connect with the company. Also, the website should be responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
 
-    ![Responsiveness screenshot](/assets/img/responsiveness.png)
+![Responsiveness screenshot](assets/img/responsiveness.png)
 
 ## Contents
 
@@ -14,7 +14,6 @@ This is the main marketing website for Waggy Tails, a dog grooming salon based i
 4. [Testing](#testing)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
-
 
 ## 1. User Experience (UX)
 
@@ -41,7 +40,13 @@ This provides a more continuous, clean, and intuitive user experience - removing
 
 **Color Scheme**
 
-TBC
+The color scheme is based on darker greens and a dark blue against white and off-white. Green is a restful color, association with nature, safety, and harmony; whereas dark blue is a confident color, associated with trust, responsibility, honesty, and loyalty. Both colors are associated with reducing stress and creating a sense of calmness. These qualities are aligned with the company's ethos and approach to customer service.
+
+![Color palette](assets/img/color-palette.png)
+
+Some of these colors are darker shades than were chosen originally due to the test results from the [ally Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/ "ally Color Contrast Accessibility Validator").
+
+The revised colors were also tested for using the Eight Shapes contrast grid. The test results can be viewed [here](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23000%2C%20Black%0D%0A%23386A8A%2C%20Secondary%20text%2Fbg%20color%0D%0A%235B7138%2C%20Primary%20text%20color%0D%0A%23577A43%2C%20Brand%20color%0D%0A%23e4efc2%2C%20Primary%20bg%20color%0D%0A%23FAF9F6%2C%20Tertiary%20text%2Fbg%20color%0D%0A%23fff%2C%20White%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18 "Contrast Grid")
 
 **Typography**
 
