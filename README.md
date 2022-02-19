@@ -99,21 +99,27 @@ The website is designed to be responsive on all device sizes.
 
 ## 4. Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
 **W3C Markup Validator**
 
-The [W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator") returned no errors or warnings.
+The [W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator") was used to to validate the site's HTML. The Validator returned no errors or warnings.
 
 A copy of the report can be accessed [here](assets/testing/w3c-html-validator.pdf "W3C Markup Validator report").
 
 **W3C CSS Validator**
 
-The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator") returned 2 errors: ‘inherit’ is not a recognised value in the border shorthand property. These errors were resolved by removing the border property as it was deemed unneccsary. The CSS validator returned a large number of warnings related to vendor extensions - these were ignored.
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator") was used to validate the site's CSS. The Validator returned 2 errors: ‘inherit’ is not a recognised value in the border shorthand property. These errors were resolved by removing the border property as it was deemed unneccsary. The CSS validator returned a large number of warnings related to vendor extensions - these were ignored.
 
 A copy of the original report can be accessed [here](assets/testing/w3c-css-validator-1.pdf "W3C CSS Validator report").
 
 A copy of the final report can be accessed [here](assets/testing/w3c-css-validator-2.pdf "W3C CSS Validator report").
+
+**a11y Color Contrast Accessibility Validator**
+
+The [ally Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/ "ally Color Contrast Accessibility Validator") was used to test for color contrast problems. The Validator retuend 4 problems with contrast color-pairs. These problems were resolved by adjusting the contrast of the font color.
+
+A copy of the original report can be accessed [here](assets/testing/color-contrast-accessibility-validator-1.pdf "ally Color Contrast Accessibility Validator report").
+
+A copy of the final report can be accessed [here](assets/testing/color-contrast-accessibility-validator-2.pdf "ally Color Contrast Accessibility Validator report").
 
 ## 5. Deployment
 
