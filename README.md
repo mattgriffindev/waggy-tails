@@ -192,6 +192,8 @@ All images were used under the Creative Commons licence.
 
 All images were compressed using [TinyPNG](https://tinypng.com/ "TinyPNG").
 
+All images were converted to .webp using [online-convert](https://www.online-convert.com/ "online-convert").
+
 Where necessary, backgrounds were removed using [remove.bg](https://www.remove.bg/ "remove.bg").
 
 **Acknowledgements**
