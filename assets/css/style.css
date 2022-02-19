@@ -60,7 +60,7 @@ h2, h4, h5 {
 	font-weight: 800;
 }
 
-p, td, h6, li, .nav-tel { 
+p, h6, li, .nav-tel { 
 	font-family: var(--paragraph-font);
 }
 
@@ -402,11 +402,13 @@ header {
 	color: var(--secondary-text-color);
 }
 
-.footer-top .fa-paw {
-	font-size: 5rem;
+.footer-brand {
 	color: var(--brand-color);
-	padding-top: 0.25rem;
-	padding-left: 3rem;
+	text-align: center;
+}
+
+.footer-brand .fa-paw {
+	font-size: 5rem;
 }
 
 .footer-top a,
@@ -420,32 +422,25 @@ header {
 	font-weight: 700;
 }
 
-.footer-table td {
-	padding-right: 1rem;
+@media only screen and (max-width: 425px) {
+	.footer-top-col {
+		padding-bottom: 2rem;
+	}
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
 	.footer-top {
 		text-align: center;
 	}
 
-	.footer-top-col {
-		padding-bottom: 2rem;
+	.footer-brand {
+		padding-bottom: 1rem;
 	}
-	
-	.footer-top .fa-paw {
-		padding-left: 0;
-	}
-
-	.footer-table {
-		margin-left: auto;
-		margin-right: auto;
-	}	
 }
 
 .social-media-icon {
 	font-size: 2rem;
-	margin-right: 1rem;
+	margin: 0 0.5rem;
 	opacity: 0.6;
 }
 
