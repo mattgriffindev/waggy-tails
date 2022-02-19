@@ -4,10 +4,10 @@
 
 :root {
 	--primary-bg-color: #e4efc2;
-	--secondary-bg-color: #357299;
+	--secondary-bg-color: #386A8A;
 	--tertiary-bg-color: #FAF9F6;
 	--primary-text-color: #5B7138;
-	--secondary-text-color: #357299;
+	--secondary-text-color: #386A8A;
 	--tertiary-text-color: #FAF9F6;
 	--brand-color: #577A43;
 	--brand-font: 'Bubblegum Sans', cursive;
@@ -403,6 +403,7 @@ header {
 .footer-brand {
 	color: var(--brand-color);
 	text-align: center;
+	margin-top: 0.5rem;
 }
 
 .footer-brand .fa-paw {
