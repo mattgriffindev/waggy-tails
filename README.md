@@ -52,15 +52,19 @@ The revised colors were also tested for using the Eight Shapes contrast grid. Th
 
 **Typography**
 
-The Monsterrat font is the title font used throughout the whole website. Sans-serif is the fallback font.
+The Monsterrat font is the title font used throughout the whole website. Sans-serif is the fallback font The Lato font is the paragraph font used throughout the whole website. Sans-serif is the fallback font in case the title font is not being imported correctly. The Lato font is known for its round edges and the approachable warmth it gives to the reader (see image below).
 
-The Lato font is the paragraph font used throughout the whole website. Sans-serif is the fallback font in case the title font is not being imported correctly. The Lato font is known for its round edges and the approachable warmth it gives to the reader.
+![Monsterrat & Lato fonts](assets/img/typography-1.png)
 
-The Bubblegum Sans font is the brand fron used in the navigation bar at the top of the site and at the bottom of the site in the footer. Cursive is the fallback font. Bubblegum Sans is described as an in-your-face font; thick, round, and as playful as a puppy.
+The Bubblegum Sans font is the brand fron used in the navigation bar at the top of the site and at the bottom of the site in the footer. Cursive is the fallback font. Bubblegum Sans is described as an in-your-face font; thick, round, and as playful as a puppy (see image below).
+
+![Bubblegu Sans font](assets/img/typography-2.png)
 
 **Imagery**
 
-The hero image is a dog posing - it was chosen to catch the user's attention and to give a fun and energetic aesthetic.
+The hero image is a dog posing - it was chosen to catch the user's attention and to give a fun and energetic aesthetic (see image below).
+
+![Hero image](assets/img/imagery-1.png)
 
 The images in the *Treatments* section were chosen to reflect the different treatents available, i.e. an image of a long-haired dog, a short-haired dog, a puppy, and a muddy dog.
 
