@@ -175,21 +175,21 @@ The website was responsive on all screen sizes from 320x480px to 1920x1200px.
 
 - ***How this has been achieved:*** 
     
-    - On entering the website, users will see a clean and readable navigation bar to navigate to each section, and a call-to-action button that links directly to the Contact section. The navigation bar is fixed to allow users to access it from anywhere on the website (see below image).<br>
+    - On entering the website, users will see a clean and readable navigation bar to navigate to each section, and a call-to-action button that links directly to the Contact section. The navigation bar is fixed to allow users to access it from anywhere on the website (see image below).<br>
     ![Screenshot of navbar](assets/img/sc-navbar.png)<br>
-    - The Hero image and text convey the company’s main message: this is a dog grooming salon covering Cwmbran and the surrounding areas with the aim of making customers’ dogs look, smell, and feel great. This is accompanied by another call-to-action button that links directly to the Contact section (see below image).<br>
+    - The Hero image and text convey the company’s main message: this is a dog grooming salon covering Cwmbran and the surrounding areas with the aim of making customers’ dogs look, smell, and feel great. This is accompanied by another call-to-action button that links directly to the Contact section (see image below).<br>
     ![Screenshot of Hero section](assets/img/sc-hero.png)<br>
-    - The *Treatments & Prices* section details the different treatments available, which includes a brief description, a price list, and an accompanying image (see below image).<br>
+    - The *Treatments & Prices* section details the different treatments available, which includes a brief description, a price list, and an accompanying image (see image below).<br>
     ![Screenshot of Treatments & Prices section](assets/img/sc-treatments.png)<br>
-    - The *Reasons to Choose Us* section details the various reasons to choose the company over its competitors (see below image).<br>
+    - The *Reasons to Choose Us* section details the various reasons to choose the company over its competitors (see image below).<br>
     ![Screenshot of Reasons to Choose Us section](assets/img/sc-reasons.png)<br>
-    - The *Reviews* section displays positive feedback from previous customers (see below image).<br>
+    - The *Reviews* section displays positive feedback from previous customers (see image below).<br>
     ![Screenshot of Customer Reviews section](assets/img/sc-reviews.png)<br>
-    - The *Get in Touch* section includes a simple contact form that allows users to send a message to the company. On submission, the user receives an immediate notification that someone will contact them as soon as possible (see below image).<br>
+    - The *Get in Touch* section includes a simple contact form that allows users to send a message to the company. On submission, the user receives an immediate notification that someone will contact them as soon as possible (see image below).<br>
     ![Screenshot of contact form](assets/img/sc-contact-form.png)<br>
-    - The *Get in Touch* section also includes an email address hyperlink that will automatically open a user's email application and autofill the email address in the "To" field, the subject 'Mail from our site' in the "Subject" field, and the text 'Thank you for contacting Waggy Tails. Please let us know how we can help you...' in the body (see below image).<br>
+    - The *Get in Touch* section also includes an email address hyperlink that will automatically open a user's email application and autofill the email address in the "To" field, the subject 'Mail from our site' in the "Subject" field, and the text 'Thank you for contacting Waggy Tails. Please let us know how we can help you...' in the body (see image below).<br>
     ![Screenshot of Get in Touch section](assets/img/sc-contact.png)<br>
-    - The *Footer* provides other contact details and opening hours along with social media links to Facebook, Twitter, and Instagram, which open in a new browser tab (see below image).<br>
+    - The *Footer* provides other contact details and opening hours along with social media links to Facebook, Twitter, and Instagram, which open in a new browser tab (see image below).<br>
     ![Screenshot of Footer section](assets/img/sc-footer.png)<br>
 
 **Further Testing**
