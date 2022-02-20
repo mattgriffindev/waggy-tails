@@ -19,7 +19,7 @@ html {
 	scroll-behavior: smooth;
   }
   
-#about,
+#welcome,
 #treatments,
 #reasons,
 #reviews,
@@ -30,7 +30,7 @@ html {
 }
 
 @media only screen and (max-width: 425px) {
-	#about,
+	#welcome,
 	#treatments,
 	#reasons,
 	#reviews,
@@ -41,7 +41,7 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-	#about,
+	#welcome,
 	#treatments,
 	#reasons,
 	#reviews,
@@ -96,7 +96,7 @@ li {
 
 .btn-main:hover {
 	color: var(--tertiary-text-color);
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .icon {
@@ -198,16 +198,16 @@ header {
 	}
 }
 
-/*----------------------------------------------about*/
+/*----------------------------------------------welcome*/
 
-#about .fa-paw {
+#welcome .fa-paw {
 	margin-bottom: -0.5rem;
 	color: var(--brand-color);
 	font-size: 6rem;
 	text-align: center;
 }
 
-#about h2 {
+#welcome h2 {
 	color: var(--primary-text-color);
 }
 
@@ -370,7 +370,8 @@ header {
 }
 
 .contact-info a:hover {
-	font-weight: 700;
+	color: var(--secondary-text-color);
+	font-weight: 600;
 }
 
 .view-map-btn {
@@ -451,7 +452,8 @@ header {
 
 .footer-top a:hover,
 .footer-bottom a:hover {
-	font-weight: 700;
+	color: var(--secondary-text-color);
+	font-weight: 600;
 }
 
 @media only screen and (max-width: 425px) {

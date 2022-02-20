@@ -4,7 +4,7 @@
 
 This is the main marketing website for Waggy Tails, a dog grooming salon based in Cwmbran. The company wants to expand its online presence by launching a website. The website should give users information about the company, the services it provides and their costs, feedback from existing customers, and ways to contact/connect with the company. Also, the website should be responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
 
-![Responsiveness screenshot](assets/img/responsiveness.png)
+![Responsiveness screenshot](assets/img/responsive.png)
 
 ## Contents
 
@@ -36,7 +36,7 @@ This is the main marketing website for Waggy Tails, a dog grooming salon based i
 
 **Site Structure**
 
-The website is a single-page website that contains only one HTML page - there are no additional pages. The website is divided into 5 main sections: (1) About Us; (2) Our Services; (3) Why Choose Us? (4) Reviews; and (5) Contact Us.
+The website is a single-page website that contains only one HTML page - there are no additional pages. The website is divided into 5 main sections: (1) Welcome; (2) Treatments & Prices; (3) Reasons to Choose Us (4) Customer Reviews; and (5) Get in Touch.
 
 This provides a more continuous, clean, and intuitive user experience - removing unnecessary clutter and focussing the user’s attention on the most important content, enabling the user to make a decision and act on it. The user navigates to different areas of the website by clicking on navigation links in the navigation menu, or by scrolling down the page to different sections of content.
 
