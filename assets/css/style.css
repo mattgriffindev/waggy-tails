@@ -51,28 +51,34 @@ html {
 	}
 }
 
-p, td { 
+p, 
+td { 
 	font-size: 1.125rem;
 }
 
-h2, h4, h5 { 
+h2, 
+h4, 
+h5 { 
 	font-family: var(--title-font);
 	font-weight: 800;
 }
 
-p, h6, li, .nav-tel { 
+.nav-tel,
+p, 
+h6, 
+li { 
 	font-family: var(--paragraph-font);
 }
 
 .section-heading-bg {
-	background-color: var(--primary-bg-color);
 	color: var(--primary-text-color);
+	background-color: var(--primary-bg-color);
 }
 
 .section-heading h2 {
-	font-size: 3rem;
 	margin-top: 2rem;
 	margin-bottom: 0;
+	font-size: 3rem;
 	text-align: center;
 }
 
@@ -82,10 +88,15 @@ p, h6, li, .nav-tel {
 }
 
 .btn-main {
-	font-family: var(--paragraph-font);
-	background-color: var(--secondary-bg-color);
 	color: var(--tertiary-text-color);
+	font-family: var(--paragraph-font);
 	font-weight: 500;
+	background-color: var(--secondary-bg-color);
+}
+
+.btn-main:hover {
+	color: var(--tertiary-text-color);
+	font-weight: 700;
 }
 
 .icon {
@@ -99,15 +110,15 @@ header {
 }
 
 .nav-link {
+	color: var(--secondary-text-color);
 	font-size: 1rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: var(--secondary-text-color);
 }
 
 .navbar-brand h1 {
-	font-family: 'Bubblegum Sans', cursive;
 	color: var(--brand-color);
+	font-family: 'Bubblegum Sans', cursive;
 }
 
 .nav-link:hover {
@@ -119,10 +130,10 @@ header {
 }
 
 .navbar-text {
-	color: var(--secondary-text-color);
-	font-weight: 700;
-	font-size: 1rem;
 	padding: 0;
+	color: var(--secondary-text-color);
+	font-size: 1rem;
+	font-weight: 700;
 }
 
 .navbar-text .fa-phone-alt {
@@ -144,8 +155,8 @@ header {
 /*----------------------------------------------hero-image*/
 
 .hero-left {
-	background-color: var(--primary-bg-color);
 	padding: 1.5rem 2rem 2rem;
+	background-color: var(--primary-bg-color);
 }
 
 .hero-left h2 {
@@ -165,15 +176,15 @@ header {
 }
 
 .hero-right {
-	background-color: var(--primary-bg-color);
 	padding-left: 0;
 	padding-right: 0;
+	background-color: var(--primary-bg-color);
 }
 
 .hero-img {
-	background: url("../../assets/img/hero-img.webp") no-repeat center center;
 	height: 100%;
 	width: auto;
+	background: url("../../assets/img/hero-img.webp") no-repeat center center;
 	background-size: cover;
 }
 
@@ -190,26 +201,31 @@ header {
 /*----------------------------------------------about*/
 
 #about .fa-paw {
-	font-size: 6rem;
 	margin-bottom: -0.5rem;
+	color: var(--brand-color);
+	font-size: 6rem;
 	text-align: center;
+}
+
+#about h2 {
+	color: var(--primary-text-color);
 }
 
 /*----------------------------------------------treatments*/
    
 .treatments-main {
 	box-sizing: border-box;
-	overflow: hidden;
 	margin-top: 20px;
+	overflow: hidden;
 }
 
 .treatments-img-container {
 	height: 200px;
 	width: 200px;
+	margin: 0 auto;
 	padding: 15px;
 	border: 1px solid var(--secondary-bg-color);
 	border-radius: 50%;
-	margin: 0 auto;
 }
 
  .treatments-img {
@@ -226,10 +242,10 @@ header {
 /*----------------------------------------------reasons*/
 
 .card-main {
+	margin-top: 20px;
 	border: 0;
 	box-sizing: border-box;
 	overflow: hidden;
-	margin-top: 20px;
 }
 
 .card-header {
@@ -246,23 +262,17 @@ header {
 }
 
 .card > hr {
-	border-top: 2px solid var(--primary-text-color);
-	width: 50%;
-	opacity: 1;
 	margin-left: 25%;
+	width: 50%;
+	border-top: 2px solid var(--primary-text-color);
+	opacity: 1;
 }
 
 /*----------------------------------------------reviews*/
 
 .reviews-bg {
-	background-color: var(--secondary-text-color);
 	height: 450px;
-}
-
-@media only screen and (max-width: 425px) {
-	.reviews-bg {
-		height: 620px;
-	}
+	background-color: var(--secondary-text-color);
 }
 
 .carousel {
@@ -275,22 +285,46 @@ header {
 }
 
 .carousel-item {
-	height: 350px;
 	position: relative;
-	background-color: rgba(255, 255, 255, 0.9);
+	height: 350px;
 	color: #000;
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 424px) {
+	.reviews-bg {
+		height: 550px;
+	}
+	
 	.carousel-item {
-		height: 520px;
+		height: 450px;
+	}
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+	.reviews-bg {
+		height: 500px;
+	}
+	
+	.carousel-item {
+		height: 400px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.reviews-bg {
+		height: 450px;
+	}
+	
+	.carousel-item {
+		height: 350px;
 	}
 }
 
 .carousel-indicators [data-bs-target] {
-	background-color: transparent;
 	height: 10px;
 	width: 10px;
+	background-color: transparent;
 	border: 1px solid var(--secondary-text-color);
 	border-radius: 50%;
 }
@@ -300,22 +334,22 @@ header {
 }
 
 .user-review {
-	width: 70%;
 	position: absolute;
-	top: 15%;
+	top: 12%;
 	left: 15%;
+	width: 70%;
 }
 
 .fa-star {
+	padding-bottom: 1rem;
 	color: #FFA900;
 	font-size: 1.5rem;
-	padding-bottom: 1rem;
 }
 
 .quote {
-	font-size: 5rem;
 	color: var(--primary-bg-color);
 	margin: 185px auto;
+	font-size: 5rem;
 }
 
 /*----------------------------------------------contact*/
@@ -325,9 +359,9 @@ header {
 }
 
 .contact-info td {
-	font-size: 1.375rem;
 	padding-right: 1rem;
 	padding-bottom: 1rem;
+	font-size: 1.375rem;
 }
 
 .contact-info a {
@@ -340,16 +374,16 @@ header {
 }
 
 .view-map-btn {
-	text-align: center;
+	margin-left: 1.75rem;
 }
 
 .contact-form {
-	color: var(--tertiary-text-color);
-	background-color: var(--secondary-bg-color);
 	padding: 20px 30px;
-	border-radius: 10px;
 	box-sizing: border-box;
 	text-align: center;
+	color: var(--tertiary-text-color);
+	background-color: var(--secondary-bg-color);
+	border-radius: 10px;
 }
 
 .submit-btn {
@@ -366,14 +400,19 @@ header {
 	.contact-col-right {
 		padding-bottom: 32px;
 	}
+
+	.view-map-btn {
+		margin-left: 0;
+		text-align: center;
+	}
 }
 
 /*----------------------------------------------footer*/
 
 .footer-top {
-	background-color: var(--primary-bg-color);
 	padding-top: 1rem;
 	color: var(--secondary-text-color);
+	background-color: var(--primary-bg-color);
 }
 
 .footer-top h5 {
@@ -382,22 +421,22 @@ header {
 }
 
 .footer-top h4 {
+	color: var(--brand-color);
 	font-family: var(--brand-font);
 	font-size: 2.5rem;
 	font-weight: 500;
-	color: var(--brand-color);
 }
 
 .footer-bottom {
-	background-color: var(--tertiary-bg-color);
 	padding-top: 1rem;
 	color: var(--secondary-text-color);
+	background-color: var(--tertiary-bg-color);
 }
 
 .footer-brand {
+	margin-top: 0.5rem;
 	color: var(--brand-color);
 	text-align: center;
-	margin-top: 0.5rem;
 }
 
 .footer-brand .fa-paw {
@@ -432,8 +471,8 @@ header {
 }
 
 .social-media-icon {
-	font-size: 2rem;
 	margin: 0 0.5rem;
+	font-size: 2rem;
 	opacity: 0.6;
 }
 
@@ -452,12 +491,12 @@ header {
 /*----------------------------------------------hr*/
 
 hr {
-	border-top: 1px solid;
-	color: inherit;
-	width: 15%;
-  	opacity: 1;
 	display: inline-block;
 	margin-bottom: 6px;
+	width: 15%;
+	color: inherit;
+	border-top: 1px solid;
+	opacity: 1;
 }
 
 hr + .fa-bone {

@@ -66,7 +66,9 @@ The images in the *Treatments* section were chosen to reflect the different trea
 
 **Interactive Links**
 
-The site includes internal hyperlinks from the navigation bar to the different sections of the site; and external hyperlinks from the footer to Facebook, Twitter and Instagram, which are set to open in a new tab.
+The website includes internal hyperlinks from the navigation bar to the different sections of the site; and external hyperlinks from the footer to Facebook, Twitter and Instagram, which are set to open in a new tab.
+
+The website includes two email address hyperlinks that will automatically open a user's email application and autofill the email address in the "To" field, the subject 'Mail from our site' in the "Subject" field, and the text 'Thank you for contacting Waggy Tails. Please let us know how we can help you...' in the body.
 
 **Wireframes**
 
@@ -159,13 +161,13 @@ The website was responsive on all screen sizes from 320x480px to 1920x1200px.
     1. Understand the company’s main purpose and find out more about the company’s service offer.
     2. Navigate easily within the site to find relevant content.
     3. Read customer reviews to understand what other customers think of the company and see if they are trusted.
-    4. Find the company’s contact details, including social media links, and be able to contact the company easily.<br><br>
+    4. Find the company’s contact details, including social media links, and be able to contact the company easily.
 
 - **As a returning/frequent visitor, I want to...**
 
     1. Find information about special offers.
     2. Find the best way to contact the company with any questions I might have.
-    3. Find the social media links so that I can join and interact with other customers.<br><br>
+    3. Find the social media links so that I can join and interact with other customers.
 
 - ***How this has been achieved:*** 
     
