@@ -26,9 +26,11 @@ This is the main marketing website for Waggy Tails, a dog grooming salon based i
     3. Read customer reviews to understand what other customers think of the company and see if they are trusted.
     4. Find the company’s contact details, including social media links, and be able to contact the company easily.
 
-- **As a returning visitor, I want to...**
+- **As a returning/frequent visitor, I want to...**
 
     1. Find information about special offers.
+    2. Find the best way to contact the company with any questions I might have.
+    3. Find the social media links so that I can join and interact with other customers.
 
 ### Design
 
@@ -60,7 +62,7 @@ The Bubblegum Sans font is the brand fron used in the navigation bar at the top 
 
 The hero image is a dog posing - it was chosen to catch the user's attention and to give a fun and energetic aesthetic.
 
-The images in the Treatments section were chosen to reflect the different treatents available, i.e. an image of a long-haired dog, a short-haired dog, a puppy, and a muddy dog.
+The images in the *Treatments* section were chosen to reflect the different treatents available, i.e. an image of a long-haired dog, a short-haired dog, a puppy, and a muddy dog.
 
 **Interactive Links**
 
@@ -71,6 +73,8 @@ The site includes internal hyperlinks from the navigation bar to the different s
 Wireframes for desktop, tablet and mobile view were created using [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq").
 
 [View the wireframes here](assets/wireframes/wireframes.pdf "Wireframes")
+
+The final website differs slightly from the wireframes as a result of developments occurring during the coding process, and from feedback from others.
 
 ## 2. Features
 
@@ -141,6 +145,66 @@ The [ally Color Contrast Accessibility Validator](https://color.a11y.com/Contras
 A copy of the original report can be accessed [here](assets/testing/color-contrast-accessibility-validator-1.pdf "ally Color Contrast Accessibility Validator report").
 
 A copy of the final report can be accessed [here](assets/testing/color-contrast-accessibility-validator-2.pdf "ally Color Contrast Accessibility Validator report").
+
+**Responsiveness Testing**
+
+The website's responsiveness was tested manually, using the Google Chrome DevTools, and the [Responsive Design Cheker](https://responsivedesignchecker.com/ "Responsive Design Checker") website.
+
+The website was responsive on all screen sizes from 320x480px to 1920x1200px.
+
+### Testing User Stories
+
+- **As a first-time visitor, I want to...**
+
+    1. Understand the company’s main purpose and find out more about the company’s service offer.
+    2. Navigate easily within the site to find relevant content.
+    3. Read customer reviews to understand what other customers think of the company and see if they are trusted.
+    4. Find the company’s contact details, including social media links, and be able to contact the company easily.<br><br>
+
+- **As a returning/frequent visitor, I want to...**
+
+    1. Find information about special offers.
+    2. Find the best way to contact the company with any questions I might have.
+    3. Find the social media links so that I can join and interact with other customers.<br><br>
+
+- ***How this has been achieved:*** 
+    
+    - On entering the website, users will see a clean and readable navigation bar to navigate to each section, and a call-to-action button that links directly to the Contact section. The navigation bar is fixed to allow users to access it from anywhere on the website.
+    - The Hero image and text convey the company’s main message: this is a dog grooming salon covering Cwmbran and the surrounding areas with the aim of making customers’ dogs look, smell, and feel great. This is accompanied by another call-to-action button that links directly to the Contact section.
+    - The *Services* section details the different services available, which includes a brief description, a price list, and an accompanying image.
+    - The *Reasons* section details the various reasons to choose the company over its competitors.
+    - The *Reviews* section displays positive feedback from previous customers.
+    - The *Contact* section includes a simple contact form that allows users to send a message to the company. On submission, the user receives an immediate notification that someone will contact them as soon as possible.
+    - The *Contact* section also includes an email address hyperlink that will automatically open a user's email application and autofill the email address in the "To" field, the subject 'Mail from our site' in the "Subject" field, and the text 'Thank you for contacting Waggy Tails. Please let us know how we can help you...' in the body.
+    - The *Footer* provides other contact details and opening hours along with social media links to Facebook, Twitter, and Instagram, which open in a new browser tab.
+
+**Further Testing**
+
+The website was tested manually by the developer and others to ensure that the website functioned as planned.
+
+The following manual tests were carried out:
+
+- The section headings and paragraph text is the correct size, font, color, and is aligned correctly, with no spelling and grammar mistakes.
+- The logo in the navigation bar links to the index.html and returns the user to the top of the website.
+- Navigation bar links scroll smoothly to the relevant section of the website.
+- The :hover pseudo element is present and correct for all links, including buttons.
+- The navigation bar is replaced by the hamburger icon at a max-width of 768px.
+- The hamburger icon displays the navigation menu when pressed.
+- The navigation bar is fixed to the top of website when the user scrolls down the website.
+- All images are displayed correctly.
+- The grid in the *Treatment* section displays as one column at a max-width of 425px and two columns thereafter.
+- The grid in the *Reasons* section displays as one column to a max-width of 425px and three columns thereafter.
+- The quotation icons in the *Reviews* are displayed correctly and disappear to a max-width of 425px.
+- The carousel size responds to the screen size.
+- The grid in the *Contact* section displays as one column to a max-width of 425px and two columns thereafter.
+- The contact form fields are set to ‘required’ and returns the correct message when submitted.
+- The grid in the *Footer* section displays as one column to a max-width of 425px, one column atop three columns to a max-width of 768px, and four columns thereafter.
+- The social media icon links open in a new tab.
+- The copyright information displays a break to a max-width of 425px.
+
+**Known Bugs**
+
+No bugs have been identified.
 
 ## 5. Deployment
 
